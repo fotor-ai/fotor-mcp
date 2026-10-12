@@ -1,12 +1,25 @@
-# Fotor MCP
+<p align="center">
+  <img src="assets/logo.svg" alt="Fotor logo" width="112">
+</p>
 
-**Image and video creation for AI agents.**
+<h1 align="center">Fotor MCP</h1>
+
+<p align="center">
+  <strong>Image and video creation for AI agents.</strong>
+</p>
+
+<p align="center">
+  <a href="#quick-start">Quick start</a> &nbsp;·&nbsp;
+  <a href="#what-you-can-create">Capabilities</a> &nbsp;·&nbsp;
+  <a href="#try-it">Example prompts</a> &nbsp;·&nbsp;
+  <a href="docs/troubleshooting.md">Troubleshooting</a>
+</p>
+
+---
 
 Connect Fotor to **Codex** or **Claude Code** and turn a creative brief into images and videos from your conversation. Describe the result you want: your agent can choose a model, prepare the request, and bring back the result link. Fotor handles the generation and image processing.
 
 Use one connection to generate and edit images, remove backgrounds, upscale photos, and create videos. Sign in with your Fotor account through OAuth; the service is hosted, with no local server or manual Fotor API key setup required.
-
-[Quick start](#quick-start) · [What you can create](#what-you-can-create) · [Example prompts](#try-it) · [Troubleshooting](docs/troubleshooting.md)
 
 ## What you can create
 
@@ -18,7 +31,9 @@ Use one connection to generate and edit images, remove backgrounds, upscale phot
 | Short videos | Describe a scene or animate a still image with a motion prompt. |
 | Video with references | Guide generation with first and last frames, or supported image, video, and audio references. |
 
-Your agent can discover models suited to the task, or you can name a model in your prompt. The catalog includes models such as **GPT Image 2**, **Gemini 2.5 Flash Image**, and **Seedance 2.0**. Available models, settings, and reference types vary; your agent can check them before submitting.
+**Models include:** GPT Image 2 · Gemini 2.5 Flash Image · Seedance 2.0.
+
+Let your agent choose a model suited to the task, or name one in your prompt. Available models, settings, and reference types vary; your agent can check them before submitting.
 
 ## Quick start
 
@@ -123,19 +138,19 @@ Your agent submits the request, checks its progress, and shares the result link 
 
 ## FAQ
 
-**Why can't I connect or sign in?**
+### Why can't I connect or sign in?
 
 Check the server URL, agent version, and browser authorization flow. Follow [connection and sign-in troubleshooting](docs/troubleshooting.md#connection-and-sign-in) if the problem continues.
 
-**Why are Fotor tools missing after I connect?**
+### Why are Fotor tools missing after I connect?
 
 Check the server's status and tool permissions in your agent. See [tools not appearing](docs/troubleshooting.md#tools-not-appearing) for the next steps.
 
-**What if I don't have enough credits?**
+### What if I don't have enough credits?
 
 Ask your agent to check your current balance. See [credit troubleshooting](docs/troubleshooting.md#credits-and-plans) for account and balance issues.
 
-**Why did I receive a task ID instead of an image or video?**
+### Why did I receive a task ID instead of an image or video?
 
 The request was submitted for processing. Ask your agent to check that task ID for the result. See [task status and results](docs/troubleshooting.md#task-status-and-results), including what to do after a timeout.
 
