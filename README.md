@@ -1,11 +1,13 @@
 <p align="center">
   <img src="assets/logo.svg" alt="Fotor logo" width="112">
+  <br>
+  <strong>Fotor MCP</strong>
 </p>
 
-<h1 align="center">Fotor MCP</h1>
+<h1 align="center">Power Your AI Agent with Fotor</h1>
 
 <p align="center">
-  <strong>Image and video creation for AI agents.</strong>
+  Generate images, edit photos, and create videos through natural language.
 </p>
 
 <p align="center">
