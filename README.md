@@ -1,7 +1,5 @@
 <p align="center">
   <img src="assets/logo.svg" alt="Fotor logo" width="112">
-  <br>
-  <strong>Fotor MCP</strong>
 </p>
 
 <h1 align="center">Power Your AI Agent with Fotor</h1>
