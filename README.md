@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="#quick-start">Quick start</a> &nbsp;·&nbsp;
-  <a href="#what-you-can-create">Capabilities</a> &nbsp;·&nbsp;
+  <a href="#features">Features</a> &nbsp;·&nbsp;
   <a href="#try-it">Example prompts</a> &nbsp;·&nbsp;
   <a href="docs/troubleshooting.md">Troubleshooting</a>
 </p>
@@ -21,15 +21,14 @@ Connect Fotor to **Codex** or **Claude Code** and turn a creative brief into ima
 
 Use one connection to generate and edit images, remove backgrounds, upscale photos, and create videos. Sign in with your Fotor account through OAuth; the service is hosted, with no local server or manual Fotor API key setup required.
 
-## What you can create
+## Features
 
-| Goal | Use Fotor through your agent to… |
-| --- | --- |
-| Social media visuals | Create post images and campaign concepts from a written brief. |
-| Product imagery | Remove a photo's background, request a new setting, or upscale an existing image. |
-| Illustrations and concept art | Explore a visual direction, then refine it using image references and follow-up prompts. |
-| Short videos | Describe a scene or animate a still image with a motion prompt. |
-| Video with references | Guide generation with first and last frames, or supported image, video, and audio references. |
+- **Image generation** — Create images from text prompts.
+- **Image editing** — Transform existing images with prompts and references.
+- **Background removal** — Isolate subjects on transparent backgrounds.
+- **Image upscaling** — Enlarge and enhance existing images.
+- **Video generation** — Create videos from text, images, or supported media references.
+- **Model discovery** — Explore available models and their supported capabilities.
 
 **Models include:** GPT Image 2 · Gemini 2.5 Flash Image · Seedance 2.0.
 
