@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="Fotor logo" width="112">
+  <img src="assets/logo.svg" alt="Fotor logo" width="180">
 </p>
 
 <h1 align="center">Power Your AI Agent with Fotor</h1>
 
 <p align="center">
-  Generate images, edit photos, and create videos through natural language.
+  Generate images, edit photos, and create video and audio through natural language.
 </p>
 
 <p align="center">
@@ -17,9 +17,9 @@
 
 ---
 
-Connect Fotor to **Codex** or **Claude Code** and turn a creative brief into images and videos from your conversation. Describe the result you want: your agent can choose a model, prepare the request, and bring back the result link. Fotor handles the generation and image processing.
+Fotor MCP works with **any AI agent that supports remote MCP over Streamable HTTP and OAuth authorization**. Turn a creative brief into images, video and audio from your conversation. Describe the result you want: your agent can choose a model, prepare the request, and bring back the result link. Fotor handles the generation and media processing.
 
-Use one connection to generate and edit images, remove backgrounds, upscale photos, and create videos. Sign in with your Fotor account through OAuth; the service is hosted, with no local server or manual Fotor API key setup required.
+Use one connection to generate and edit images, remove backgrounds, upscale photos, create videos, and generate or process audio. Sign in with your Fotor account through OAuth; the service is hosted, with no local server or manual Fotor API key setup required.
 
 ## Features
 
@@ -28,6 +28,9 @@ Use one connection to generate and edit images, remove backgrounds, upscale phot
 - **Background removal** — Isolate subjects on transparent backgrounds.
 - **Image upscaling** — Enlarge and enhance existing images.
 - **Video generation** — Create videos from text, images, or supported media references.
+- **Music and soundtracks** — Create separate MP3 soundtracks for images or videos, generate new tracks from reference audio, and extend, remix, or edit songs.
+- **Speech and podcasts** — Turn text into speech or create a podcast from scripted dialogue.
+- **Audio separation** — Separate vocals and accompaniment from an existing track and download the stems as a ZIP.
 - **Model discovery** — Explore available models and their supported capabilities.
 
 **Models include:** GPT Image 2 · Gemini 2.5 Flash Image · Seedance 2.0.
@@ -36,7 +39,7 @@ Let your agent choose a model suited to the task, or name one in your prompt. Av
 
 ## Quick start
 
-You'll need a **Fotor account** and an **AI agent with remote MCP and OAuth support**, such as Codex or Claude Code. Generation and image processing can consume Fotor credits. Ask your agent to check your balance before creating.
+You'll need a **Fotor account** and an **AI agent with remote MCP (Streamable HTTP) and OAuth support**. Generation and media processing can consume Fotor credits. Ask your agent to check your balance before creating.
 
 Connect to the hosted MCP endpoint:
 
@@ -134,6 +137,10 @@ Or continue from an image you already have:
 > Use this image as the first frame of a 16:9 Fotor video. Add gentle movement to the steam and a slow camera push-in.
 
 Your agent submits the request, checks its progress, and shares the result link when it is ready. If a task is still processing, you can ask for its status later using the task ID. Save the outputs you want to keep; result links are not guaranteed to remain available permanently.
+
+### Turn text into speech
+
+> Use Fotor to read "Hello from Fotor." aloud. Choose a supported voice and give me the MP3 download link.
 
 ## FAQ
 
